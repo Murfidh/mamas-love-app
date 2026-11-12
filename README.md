@@ -75,7 +75,7 @@ On Render, the persistent disk needs a paid instance (Starter plan or above).
 
 You can also do it from the server:
 ```bash
-docker compose exec -T app node scripts/import.js /data/backup.json   # after copying the file into ./data
+docker compose exec -T app node --experimental-sqlite scripts/import.js /data/backup.json   # after copying the file into ./data
 ```
 
 The example records are tagged "example". Remove them from **Settings** before you start using real data, or just don't run `seed-demo` in production.
@@ -83,7 +83,7 @@ The example records are tagged "example". Remove them from **Settings** before y
 ## Backups
 
 - **Automatic:** `deploy.sh` schedules a snapshot every night at 02:30 into `./data/backups`. The newest 30 are kept.
-- **Manual snapshot:** `docker compose exec app node scripts/backup.js`
+- **Manual snapshot:** `docker compose exec app node --experimental-sqlite scripts/backup.js`
 - **Readable export:** **Settings → Download full backup (JSON)**. Keep a weekly copy off the server, for example in Google Drive.
 - **Restore a snapshot:**
   ```bash
@@ -96,7 +96,7 @@ The example records are tagged "example". Remove them from **Settings** before y
 ## Forgot the admin password
 
 ```bash
-docker compose exec app node scripts/reset-password.js admin NewPassword123
+docker compose exec app node --experimental-sqlite scripts/reset-password.js admin NewPassword123
 ```
 
 ## Settings reference (`.env`)

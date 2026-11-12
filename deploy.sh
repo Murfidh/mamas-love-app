@@ -29,7 +29,7 @@ chown -R 1000:1000 data
 docker compose up -d --build
 
 # Daily database snapshot at 02:30, newest 30 kept in ./data/backups
-CRON="30 2 * * * cd $(pwd) && docker compose exec -T app node --disable-warning=ExperimentalWarning scripts/backup.js >> $(pwd)/data/backups/backup.log 2>&1"
+CRON="30 2 * * * cd $(pwd) && docker compose exec -T app node --experimental-sqlite --disable-warning=ExperimentalWarning scripts/backup.js >> $(pwd)/data/backups/backup.log 2>&1"
 ( crontab -l 2>/dev/null | grep -v 'scripts/backup.js' ; echo "$CRON" ) | crontab -
 
 . ./.env

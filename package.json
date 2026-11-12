@@ -6,11 +6,11 @@
   "main": "server.js",
   "engines": { "node": ">=22.5" },
   "scripts": {
-    "start": "node --disable-warning=ExperimentalWarning server.js",
-    "backup": "node --disable-warning=ExperimentalWarning scripts/backup.js",
-    "import": "node --disable-warning=ExperimentalWarning scripts/import.js",
-    "reset-password": "node --disable-warning=ExperimentalWarning scripts/reset-password.js",
-    "seed-demo": "node --disable-warning=ExperimentalWarning scripts/seed-demo.js"
+    "start": "node --experimental-sqlite --disable-warning=ExperimentalWarning server.js",
+    "backup": "node --experimental-sqlite --disable-warning=ExperimentalWarning scripts/backup.js",
+    "import": "node --experimental-sqlite --disable-warning=ExperimentalWarning scripts/import.js",
+    "reset-password": "node --experimental-sqlite --disable-warning=ExperimentalWarning scripts/reset-password.js",
+    "seed-demo": "node --experimental-sqlite --disable-warning=ExperimentalWarning scripts/seed-demo.js"
   },
   "dependencies": {
     "express": "4.21.2"
