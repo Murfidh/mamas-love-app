@@ -1,1 +1,1 @@
-{"name": "Mother's Nest Pharmacy", "type": "Wholesale", "contact": "Ruwan Silva", "phone": "+94 71 555 0192", "creditDays": 30, "creditLimit": 250000, "openingBalance": 0, "address": "Maharagama", "sample": true}
+{"name": "Example Wholesale Customer 2", "type": "Wholesale", "contact": "Example Contact", "phone": "0000000000", "creditDays": 30, "creditLimit": 250000, "openingBalance": 0, "address": "Example address", "sample": true}

@@ -33,7 +33,7 @@ Any 1 GB Ubuntu server is enough, for example DigitalOcean, Hetzner, AWS Lightsa
 
 1. **Create the server** with Ubuntu 24.04. Note its IP address.
 2. **Point your domain** to it. At your domain registrar, add an `A` record such as `app.mamasandlove.lk` → the server IP.
-3. **Copy this folder to the server.** Either push it to a private GitHub repo and `git clone` it, or run:
+3. **Copy this folder to the server.** Either push it to GitHub and `git clone` it, or run:
    ```bash
    scp -r mamas-love-app root@SERVER_IP:/opt/
    ```
@@ -57,7 +57,7 @@ Replace the files (or `git pull`), then run `sudo ./deploy.sh` again. Your data 
 
 ## 3. Alternative: Railway or Render (no server to manage)
 
-1. Push this folder to a private GitHub repo.
+1. Push this folder to a GitHub repo.
 2. Create a new service from the repo. The included `Dockerfile` is detected automatically.
 3. **Add a persistent volume/disk mounted at `/data`.** This is required: without it, every redeploy wipes the database.
 4. Set these environment variables:
@@ -110,6 +110,11 @@ docker compose exec app node --experimental-sqlite scripts/reset-password.js adm
 | `PORT` | App port (default 3000) |
 | `DATA_DIR` | Where the database lives (default `./data`, `/data` in Docker) |
 | `COOKIE_SECURE` | `true` when served over HTTPS |
+
+## License
+
+This project is released under the MIT License. See [LICENSE](./LICENSE).
+Demo records are illustrative and use placeholder contact details.
 
 ## What the server adds over the claude.ai version
 

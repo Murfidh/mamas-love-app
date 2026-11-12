@@ -1,1 +1,1 @@
-{"name": "Kids Kingdom Distributors", "type": "Distributor", "contact": "Fazal Mohamed", "phone": "+94 76 880 2211", "creditDays": 45, "creditLimit": 800000, "openingBalance": 75000, "address": "Kurunegala", "sample": true}
+{"name": "Example Distributor", "type": "Distributor", "contact": "Example Contact", "phone": "0000000000", "creditDays": 45, "creditLimit": 800000, "openingBalance": 75000, "address": "Example address", "sample": true}

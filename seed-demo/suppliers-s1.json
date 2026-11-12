@@ -1,1 +1,1 @@
-{"name": "Lanka Textile Mills", "origin": "Local", "country": "Sri Lanka", "currency": "LKR", "contact": "Nimal Perera", "phone": "+94 11 234 5678", "email": "sales@lankatextile.example", "creditDays": 30, "openingBalance": 0, "address": "Ja-Ela", "sample": true}
+{"name": "Example Local Supplier 1", "origin": "Local", "country": "Sri Lanka", "currency": "LKR", "contact": "Example Contact", "phone": "0000000000", "email": "supplier1@example.invalid", "creditDays": 30, "openingBalance": 0, "address": "Example address", "sample": true}
