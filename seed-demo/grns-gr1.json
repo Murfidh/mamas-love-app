@@ -1,0 +1,1 @@
+{"no": "GRN-00001", "date": "2026-09-02", "supplierId": "s3", "purchaseId": "pu1", "ref": "BL COSU-77120", "receivedBy": "Warehouse", "items": [{"productId": "p4", "qty": 400, "unitCost": 1099.45}, {"productId": "p5", "qty": 200, "unitCost": 1546.1}], "sample": true}

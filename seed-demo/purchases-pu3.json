@@ -1,0 +1,1 @@
+{"no": "PO-00003", "date": "2026-10-15", "supplierId": "s2", "mode": "order", "origin": "Local", "currency": "LKR", "fxRate": 1, "expected": "2026-10-28", "items": [{"productId": "p3", "desc": "Baby Massage Oil 100ml", "qty": 500, "unitCost": 620}], "charges": [], "sample": true}

@@ -1,0 +1,1 @@
+{"no": "INV-00004", "date": "2026-09-18", "dueDate": "2026-09-18", "customerId": "k4", "tier": "Retail", "terms": "Cash", "taxRate": 0, "discount": 0, "items": [{"productId": "p1", "desc": "Organic Cotton Swaddle", "qty": 6, "price": 3650, "disc": 0}, {"productId": "p2", "desc": "Nursing Pillow", "qty": 3, "price": 6950, "disc": 0}], "sample": true}

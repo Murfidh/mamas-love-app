@@ -1,0 +1,1 @@
+{"no": "RC-00004", "date": "2026-09-25", "customerId": "k3", "method": "Bank transfer", "amount": 200000, "allocations": [{"invoiceId": "i2", "amount": 200000}], "sample": true}

@@ -1,0 +1,1 @@
+{"no": "GRN-00002", "date": "2026-08-20", "supplierId": "s2", "ref": "DN 4471", "receivedBy": "Warehouse", "items": [{"productId": "p3", "qty": 300, "unitCost": 610}, {"productId": "p6", "qty": 400, "unitCost": 260}], "sample": true}

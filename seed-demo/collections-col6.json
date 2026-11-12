@@ -1,0 +1,1 @@
+{"no": "RC-00001", "date": "2026-08-10", "customerId": "k1", "method": "Bank transfer", "amount": 136000, "ref": "CEFT 55120", "allocations": [{"invoiceId": "i7", "amount": 136000}], "sample": true}

@@ -1,0 +1,1 @@
+{"no": "RC-00002", "date": "2026-09-08", "customerId": "k1", "method": "Cheque", "amount": 205400, "chequeNo": "004512", "bank": "Commercial Bank", "branch": "Nugegoda", "chequeDate": "2026-09-10", "chequeStatus": "Cleared", "allocations": [{"invoiceId": "i1", "amount": 205400}], "sample": true}

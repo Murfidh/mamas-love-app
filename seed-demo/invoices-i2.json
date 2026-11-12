@@ -1,0 +1,1 @@
+{"no": "INV-00003", "date": "2026-09-05", "dueDate": "2026-10-20", "customerId": "k3", "tier": "Distributor", "terms": "Credit", "taxRate": 0, "discount": 0, "items": [{"productId": "p4", "desc": "Silicone Feeding Set", "qty": 150, "price": 2350, "disc": 0}, {"productId": "p6", "desc": "Bamboo Baby Wipes 80s", "qty": 200, "price": 470, "disc": 0}], "sample": true}

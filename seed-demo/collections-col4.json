@@ -1,0 +1,1 @@
+{"no": "RC-00006", "date": "2026-10-15", "customerId": "k2", "method": "Cheque", "amount": 100000, "chequeNo": "118204", "bank": "Sampath Bank", "branch": "Maharagama", "chequeDate": "2026-10-25", "chequeStatus": "Pending", "allocations": [{"invoiceId": "i4", "amount": 100000}], "sample": true}

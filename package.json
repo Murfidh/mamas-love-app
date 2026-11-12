@@ -1,0 +1,18 @@
+{
+  "name": "mamas-and-love-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Business manager for Mamas and Love: costing, pricing, purchases, GRN, invoicing, cheques, collections, accounts and analysis.",
+  "main": "server.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "backup": "node --disable-warning=ExperimentalWarning scripts/backup.js",
+    "import": "node --disable-warning=ExperimentalWarning scripts/import.js",
+    "reset-password": "node --disable-warning=ExperimentalWarning scripts/reset-password.js",
+    "seed-demo": "node --disable-warning=ExperimentalWarning scripts/seed-demo.js"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}

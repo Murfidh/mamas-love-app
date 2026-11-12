@@ -1,0 +1,1 @@
+{"no": "INV-00005", "date": "2026-10-02", "dueDate": "2026-11-01", "customerId": "k2", "tier": "Wholesale", "terms": "Cheque", "taxRate": 0, "discount": 0, "items": [{"productId": "p2", "desc": "Nursing Pillow", "qty": 20, "price": 5600, "disc": 0}, {"productId": "p5", "desc": "Maternity Support Belt", "qty": 25, "price": 3600, "disc": 0}], "sample": true}

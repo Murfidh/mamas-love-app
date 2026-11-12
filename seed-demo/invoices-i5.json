@@ -1,0 +1,1 @@
+{"no": "INV-00006", "date": "2026-10-10", "dueDate": "2026-11-09", "customerId": "k1", "tier": "Wholesale", "terms": "Credit", "taxRate": 0, "discount": 0, "items": [{"productId": "p4", "desc": "Silicone Feeding Set", "qty": 60, "price": 2600, "disc": 0}, {"productId": "p3", "desc": "Baby Massage Oil 100ml", "qty": 80, "price": 1450, "disc": 0}], "sample": true}
